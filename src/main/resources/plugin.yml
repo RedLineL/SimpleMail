@@ -2,3 +2,19 @@ name: SimpleMail
 version: '1.0'
 main: org.legion.simpleMail.SimpleMail
 api-version: '1.18'
+commands:
+  mail:
+    description: You can use mail system
+    permission: simplemail.use
+    usage: /<command> <params>
+
+permissions:
+  simplemail.use:
+    description: Gives access to the /mail command
+    default: true
+
+  simplemail.*:
+    description: Gives access to all SimpleMail actions and commands
+    default: op
+    children:
+      simplemail.use: true
