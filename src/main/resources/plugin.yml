@@ -1,0 +1,4 @@
+name: SimpleMail
+version: '1.0'
+main: org.legion.simpleMail.SimpleMail
+api-version: '1.18'
