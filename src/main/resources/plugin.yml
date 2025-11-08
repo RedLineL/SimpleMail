@@ -2,7 +2,7 @@ name: SimpleMail
 version: '1.0'
 main: org.legion.simpleMail.SimpleMail
 api-version: '1.18'
-description: With this plugin you can send mail to offline/online players
+description: With this plugin you can send mail to offline/online players.
 
 commands:
   mail:
